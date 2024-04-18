@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="wwwroot/bootstrap/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div class="input-group p-3">
+            <span class="input-group-text">@</span>
+            <input type="text" class="form-control" placeholder="username">
+        </div>
+        <div class="input-group p-3">
+            <input type="text" class="form-control" placeholder="username">
+            <span class="input-group-text">@techcareer.net</span>
+        </div>
+        <div class="p-3">
+            <label for="InputPasssword" class="form-label">Password</label>
+            <input type="password" class="form-control" id="InputEmail" aria-describedby="passwordHelp">
+            <div id="passwordHelp" class="form-text">Lütfen parolanızı başkaları ile paylaşmayınız!</div>
+        </div>
+        <div class="p-3">
+            <label class="form-label">Şehir</label>
+            <select class="form-select">
+                <option selected>Lütfen şehir seçiniz</option>
+                <option value="1">İstanbul</option>
+                <option value="1">Ankara</option>
+                <option value="1">İzmir</option>
+                <option value="1">Mersin</option>
+                <option value="1">Van</option>
+            </select>
+        </div>
+        <div class="p-3">
+            <label for="Range1" class="form-label">C# Bilgi Dereceniz</label>
+            <input type="range"  min="0" max="100" step="10" class="form-range">
+        </div>
+        <div class="input-group p-3">
+            <span class="input-group-text">Ekstra bilgiler</span>
+            <textarea class="form-control"></textarea>
+        </div>
+        <button class="btn btn-success m-3">Giriş Yap</button>
+    </form>
+</body>
+</html>
